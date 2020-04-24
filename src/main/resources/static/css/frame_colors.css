@@ -1,0 +1,127 @@
+.card-background.white {
+    background-color: #e2d8c1;
+}
+
+header.white {
+    background-color: #f0efec;
+}
+
+.card-background.blue {
+    background-color: #7bc2e3;
+}
+
+header.blue {
+    background-color: #0174c1;
+}
+
+.card-background.black {
+    background-color: #211f2a;
+}
+
+header.black {
+    background-color: #1c1a1b;
+}
+
+header.red {
+    background-color: #d51e32;
+}
+
+.card-background.red {
+    background-color: #d4565a;
+}
+
+header.green {
+    background-color: #417865;
+}
+
+.card-background.green {
+    background-color: #93b09c;
+}
+
+header.wu {
+    background-image: linear-gradient(to right, #f0efec, #0174c1)
+}
+
+.card-background.wu {
+    background-image: linear-gradient(to right, #e2d8c1, #7bc2e3)
+}
+
+header.wb {
+    background-image: linear-gradient(to right, #f0efec, #1c1a1b)
+}
+
+.card-background.wb {
+    background-image: linear-gradient(to right, #e2d8c1, #211f2a)
+}
+
+header.wr {
+    background-image: linear-gradient(to right, #f0efec, #d51e32);
+}
+
+.card-background.wr {
+    background-image: linear-gradient(to right, #e2d8c1, #d4565a)
+}
+
+header.wg {
+    background-image: linear-gradient(to right, #0174c1, #417865);
+}
+
+.card-background.wg {
+    background-image: linear-gradient(to right, #e2d8c1, #93b09c)
+}
+
+header.ub {
+    background-image: linear-gradient(to right, #0174c1, #1c1a1b)
+}
+
+.card-background.ub {
+    background-image: linear-gradient(to right, #7bc2e3, #211f2a)
+}
+
+header.ur {
+    background-image: linear-gradient(to right, #0174c1, #d51e32);
+}
+
+.card-background.ur {
+    background-image: linear-gradient(to right, #7bc2e3, #d4565a)
+}
+
+header.ug {
+    background-image: linear-gradient(to right, #f0efec, #417865);
+}
+
+.card-background.ug {
+    background-image: linear-gradient(to right, #7bc2e3, #93b09c)
+}
+
+header.br {
+    background-image: linear-gradient(to right, #1c1a1b, #d51e32);
+}
+
+.card-background.br {
+    background-image: linear-gradient(to right, #211f2a, #d4565a)
+}
+
+header.bg {
+    background-image: linear-gradient(to right, #1c1a1b, #417865);
+}
+
+.card-background.bg {
+    background-image: linear-gradient(to right, #211f2a, #93b09c)
+}
+
+header.rg {
+    background-image: linear-gradient(to right, #d51e32, #417865);
+}
+
+.card-background.rg {
+    background-image: linear-gradient(to right, #d4565a, #93b09c)
+}
+
+header.gold {
+    background-color: #f3d98f;
+}
+
+.card-background.land {
+    background-color: #96816c;
+}

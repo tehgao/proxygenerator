@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Plantin';
+    src: url('../fonts/mplantin.woff') format('woff'), url('../fonts/mplantin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Beleren';
+    src: url('../fonts/Beleren2016-Bold.woff') format('woff'), url("../fonts/Beleren2016-Bold.ttf") format('truetype');
+}
+
+@page {
+    size: letter landscape;
+}
+
+@media print {
+    body {
+        zoom: 61%;
+        -webkit-print-color-adjust: exact !important;
+    }
+}
+
+
+/* card sizing and background */
+
+.card {
+    padding: 15px;
+    height: 546px;
+    width: 396px;
+    outline: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, .85) 85%, rgba(255, 255, 255, 1) 90%), url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg==");
+    background-repeat: repeat;
+}
+
+.card-background {
+    padding: 7px 8px 30px 7px;
+    background-color: #ddd;
+    border-radius: 10px 10px 40px 40px;
+    height: 475px;
+}
+
+.card-body {
+    position: relative;
+    height: 485px;
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #555;
+    border-radius: 5px 5px 0 0;
+    background: white;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+article {
+    padding: 3px;
+    width: 350px;
+}
+
+article>div.art,
+article>div.textbox {
+    background: #ddd;
+    position: relative;
+    height: 235.031px;
+    border: 2px solid #333;
+    z-index: 2;
+}
+
+div.art {
+    width: 95%;
+    margin: 0 auto;
+    top: -485px;
+}
+
+div.art img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -10px;
+}
+
+header {
+    padding: 3px;
+    background: #ddd;
+    border-radius: 8px/20px;
+    box-shadow: -2px 0 0 0 rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: -485px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+header div {
+    padding: 5px 8px 3px;
+    background: white;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 10px/20px;
+    box-shadow: inset 2px -3px 0 #aaa, inset -1px 1px 0 #fff;
+    height: 33px;
+}
+
+header.card-name {
+    top: -485px;
+}
+
+header.card-name div {
+    height: 34px;
+}
+
+.textBox {
+    width: 95%;
+    height: 160px;
+    margin: 0 auto;
+    padding: 10px 7px;
+    top: -485px;
+    bottom: 44px;
+    border: 2px solid #999;
+    border-bottom: 0 none;
+    border-left: 0 none;
+    background: white;
+    position: relative;
+}
+
+.powerToughness {
+    width: 4em;
+    top: -490px;
+    right: 0;
+    text-align: center;
+    box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.8);
+    float: right;
+    overflow: hidden;
+}
+
+.powerToughness div {
+    padding: 4px 0 0;
+    height: 23px;
+    box-shadow: inset -2px 2px 1px #333, inset 1px -1px 0 #fff;
+    border: 0 none;
+    font-size: 21px;
+}
+
+header .ms {
+    position: relative;
+    top: -22px;
+    float: right;
+}
+
+
+/* text styles begin */
+
+h1 {
+    font-size: 21px;
+    line-height: 1em;
+    font-family: Beleren;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 1em;
+    font-family: Beleren;
+}
+
+.powerToughness h2 {
+    font-family: Plantin;
+}
+
+h2 i {
+    float: right;
+}
+
+h3 {
+    padding-top: 2px;
+    position: relative;
+    right: 5px;
+    top: 2px;
+    width: 1.05em;
+    height: 1.05em;
+    background: #ddd;
+    text-align: center;
+    border-radius: 1em;
+    line-height: 1em;
+}
+
+h4 {
+    position: relative;
+    right: -300px;
+    top: -18px;
+}
+
+h6 {
+    float: right;
+    text-align: right;
+    font-size: 8px;
+    position: relative;
+    right: -55px;
+    bottom: -10px;
+}
+
+p {
+    margin-bottom: 0.6em;
+    line-height: 1.1em;
+    font-family: Plantin;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote p {
+    margin-bottom: 0;
+}
+
+footer {
+    color: black;
+    font-family: sans-serif;
+    font-size: 9px;
+    position: relative;
+    top: -465px;
+    left: 5px;
+    right: 5px;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0.2em;
+    letter-spacing: 0.18em;
+    float: left;
+    display: inline-block;
+    font-family: arial;
+}
+
+
+/* flip animation styles and hover */
+
+.flip-container {
+    perspective: 1000px;
+}
+
+.flip-container {
+    height: 550px;
+    width: 400px;
+    margin: 0 50px;
+    float: left;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+
+/* front pane, placed above back */
+
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+
+/* back, initially hidden pane */
+
+.back {
+    transform: rotateY(180deg);
+}
